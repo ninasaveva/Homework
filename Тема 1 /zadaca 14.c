@@ -15,7 +15,7 @@ int main ()
     scanf("%f",&a);
     scanf("%f",&b);
 
-    float y = pow(a,3)/5 + 5*pow(a,4)/b + 12*b/pow(a,4) + 2.1;
+    float y = ((pow(a,3)) /5 ) + ((5*(pow(a,4)/ b))) + ((12(*b/pow(a,4))) + 2.1;
 
     printf("The result is: %.2f", y );
 
