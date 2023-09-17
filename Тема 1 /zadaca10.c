@@ -16,10 +16,10 @@ int r, h;
 scanf("%d", &r);
 scanf("%d", &h);
 
-int pi = 3.14;
-int V = pi * pow(r,2)*h;
+float pi = 3.14;
+float V = pi * pow(r,2)*h;
 
-printf("The result is: %d", V);
+printf("The result is: %.2f", V);
 
 
 return 0;
