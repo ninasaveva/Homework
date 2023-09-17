@@ -7,18 +7,20 @@
 //резултатот на екран.
 // Формула: V=L*w*h
 
+
 int main ()
 
 {
-   int l,w,h;
-   scanf("%d", &l);
-   scanf("%d", &w);
-   scanf("%d", &h);
+   float l,w,h;
+   scanf("%f", &l);
+   scanf("%f", &w);
+   scanf("%f", &h);
 
-   int result = l * w * h;
+   float result = l * w * h;
 
-   printf("The volumen is: %d", result);
+   printf("The volumen is: %.2f", result);
 
 
    return 0;
 }
+
