@@ -15,7 +15,7 @@ int main ()
   scanf("%f", &x);
 
   float y;
-  y = sqrt(pow(a,2)+3) / (1+ pow(b,3)/a) / (a/pow(b,4) + sqrt(1/(a+b));
+  y = sqrt((pow(a,2)+3) / (1+ pow(b,3)/a)) / (a/pow(b,4) + sqrt(1/(a+b)));
 
   printf("The result is: %.2f", y);
 
