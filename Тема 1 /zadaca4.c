@@ -20,5 +20,4 @@ float b, h, l;
 
     return 0;
 
-// 1 error, 2 warnings
 
