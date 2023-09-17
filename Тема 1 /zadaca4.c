@@ -8,17 +8,17 @@
 //  Формула: V = 1/2*b*h*l
 
 int main ()
+float b, h, l;
 
-{
-    int b, h, l;
-    scanf("%d", &b);
-    scanf("%d", &h);
-    scanf("%d", &l);
+    scanf("%f", &b);
+    scanf("%f", &h);
+    scanf("%f", &l);
 
-    int result = (0.5)*b*h*l;
+    float result = (b*h*l)/2;
 
-    printf("The volumen is: %d", result);
-
+    printf("The volumen is: %.2f", result);
 
     return 0;
-}
+
+// 1 error, 2 warnings
+
