@@ -9,13 +9,16 @@
 
 int main()
 {
-   int x, y;
-   scanf("%d", &x);
-   scanf("%d", &y);
+   int number1, number2;
+   
+   printf("Enter two numbers:\n");
+   scanf("%d", &number1);
+   scanf("%d", &number2);
 
    int maxValue;
 
-   (x>y)? printf(maxValue=x) : printf(maxValue=y);
+   (number1>number2)? printf(maxValue=number1) : printf(maxValue=number2);
+   
     printf("maxValue is: %d", maxValue);
 
 
