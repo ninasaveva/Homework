@@ -11,16 +11,16 @@
 int main()
 
 {
-   int x, y;
+   int number1, number2;
 
     printf("Vnesi dva broja: \n");
 
-    scanf("%d", &x);
-    scanf("%d", &y);
+    scanf("%d", &number1);
+    scanf("%d", &number2);
 
     int absDif;
 
-    abs(x-y)?  (absDif = abs(x-y)) : (absDif = abs(y-x));
+    abs(number1-number2)?  (absDif = abs(number1-number2)) : (absDif = abs(number2-number1));
 
     printf("%d", absDif);
 
