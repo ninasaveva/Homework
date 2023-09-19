@@ -13,7 +13,7 @@ int main()
 {
    int number1, number2;
 
-    printf("Vnesi dva broja: \n");
+    printf("Enter two numbers: \n");
 
     scanf("%d", &number1);
     scanf("%d", &number2);
