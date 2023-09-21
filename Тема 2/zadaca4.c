@@ -17,7 +17,7 @@ int main()
 
    int maxValue;
 
-   (number1>number2)? printf(maxValue=number1) : printf(maxValue=number2);
+   (number1>number2)? (maxValue=number1) : (maxValue=number2);
    
     printf("maxValue is: %d", maxValue);
 
