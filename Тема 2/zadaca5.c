@@ -20,7 +20,7 @@ int main()
 
     int absDif;
 
-    abs(number1-number2)?  (absDif = abs(number1-number2)) : (absDif = abs(number2-number1));
+  
 
     printf("%d", absDif);
 
