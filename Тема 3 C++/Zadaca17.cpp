@@ -55,7 +55,7 @@ int main()
 
 
       cout<<"The result is: "<<result<<endl;
-
-
+  
+     // Ne mi go dava tocno rezultatot
     return 0;
 }
