@@ -11,51 +11,50 @@ using namespace std;
 int main()
 {
 
-  int number1, number2, number3;
+    int number1, number2, number3;
 
     cin>>number1>>number2>>number3;
 
-    int max,min;
-
-    int result = max - min;
+    int Max,Min;
 
     //MIN
 
     if(number1<number2 && number1<number3)
     {
-        min = number1;
+        Min = number1;
 
     }
     else if(number2<number1 && number2<number3)
     {
-        min = number2;
+        Min = number2;
     }
 
     else
     {
-        min = number3;
+        Min = number3;
     }
 
     //MAX
 
     if(number1>number2 && number1>number3)
     {
-        max = number1;
+        Max = number1;
 
     }
     else if(number2>number1 && number2>number3)
     {
-        max = number2;
+        Max = number2;
     }
 
     else
     {
-        max = number3;
+        Max = number3;
     }
 
+    int result = Max - Min;
 
-      cout<<"The result is: "<<result<<endl;
-  
-     // Ne mi go dava tocno rezultatot
+    cout<<"The result is: "<<result<<endl;
+
+
     return 0;
 }
