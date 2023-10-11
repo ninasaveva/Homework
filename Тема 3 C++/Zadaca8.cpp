@@ -15,7 +15,7 @@ int main()
     cin>>number1>>number2;
 
     int result;
-    int sum = number1 * number2;
+    int sum = number1 + number2;
 
     if(number1 > 0 && number2 > 0)
     {
@@ -24,10 +24,10 @@ int main()
     }
     else
     {
-        result = pow(number1,2)*pow(number2,2);
+        result = pow(number1,2) + pow(number2,2);
     }
 
     cout<<"The result is: "<<result<<endl;
-    
+
     return 0;
 }
