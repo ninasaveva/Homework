@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cmath>
-
 
 //4. Напиши програма каде преку тастатура ќе може да се внеси цел број.
 //Програмата треба да провери дали бројот завршува со 25.
@@ -15,7 +13,7 @@ int main()
     int number;
     cin>>number;
 
-    if(number / 10 == 25)
+    if(number % 100 == 25)
     {
         cout<<"The number edns with 25"<<endl;
     }
@@ -26,4 +24,3 @@ int main()
 
     return 0;
 }
-
