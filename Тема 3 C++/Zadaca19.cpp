@@ -15,7 +15,7 @@ int main()
 
     cin>>number;
 
-    if(number % 10 == number / 10)
+    if(number % 10 == (number / 10)%10)  // 567 % 10 -->7       567 / 10  --> 56    56 % 10 --> 6
     {
         cout<<"The condition is true." <<endl;
     }
