@@ -44,7 +44,10 @@ int main()
 //    {
 //        cout<<"Pet"<<endl;
 //    }
-
+//    else
+//    { 
+//        cout<<"Other"<<endl;
+//    }
 
     //Resena zadaca so Switch
 
