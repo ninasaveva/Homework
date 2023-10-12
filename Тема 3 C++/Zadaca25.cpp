@@ -145,7 +145,7 @@ int main()
         break;
 
     default:
-        cout<<"Brojot ne pretstavuva broj."<<endl;
+        cout<<"Brojot ne pretstavuva mesec."<<endl;
 
     
     }
