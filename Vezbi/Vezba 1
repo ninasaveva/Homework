@@ -1,0 +1,107 @@
+#include <iostream>
+
+//Напиши програма каде што ќе биде внесен број во рангот [1,12] и отпечати го на
+//екран бројот на денови за тој месец.
+//Јануари - 31, Фебруари - 28, Март - 31, Април - 30, Мај - 31, Јуни - 30
+//Јули - 31, Август - 31, Септември - 30, Октомври - 31, Ноември - 30, Декември - 31
+
+using namespace std;
+
+int main()
+{
+    int mesec;
+
+    cin>>mesec;
+
+
+
+    if (mesec == 1)
+    {
+        cout << "Januari ima 31 den." << endl;
+    }
+    else if (mesec == 2)
+    {
+        cout << "Februari ima 30 dena." <<endl;
+    }
+    else if (mesec == 3)
+    {
+        cout << "Marti ima 31 den." <<endl;
+    }
+    else if (mesec == 4)
+    {
+        cout << "April ima 30 dena." <<endl;
+    }
+    else if (mesec == 5)
+    {
+        cout << "Maj ima 31 den." << endl;
+    }
+    else if (mesec == 6)
+    {
+        cout << "Juni ima 30 dena." <<endl;
+    }
+    else if (mesec == 7)
+    {
+        cout << "Juli ima 31 den." << endl;
+    }
+    else if (mesec == 8)
+    {
+        cout << "Avgust ima 30 dena." <<endl;
+    }
+    else if (mesec == 9)
+    {
+        cout << "Septemvri ima 31 den." <<endl;
+    }
+    else if (mesec == 10)
+    {
+        cout << "Oktomvri ima 30 dena." <<endl;
+    }
+    else if (mesec == 11)
+    {
+
+    }
+    else if (mesec == 10)
+    {
+        cout << "Dekemvri ima 31 den." <<endl;
+//    switch(result){
+//        case 1:
+//            cout<<"Januari ima 31 den"<<endl;
+//            break;
+//        case 2:
+//            cout<<"Fevruari ima 28 dena"<<endl;
+//            break;
+//        case 3:
+//            cout<<"Mart ima 31 den"<<endl;
+//            break;
+//        case 4:
+//            cout<<"April ima 30 dena"<<endl;
+//            break;
+//        case 5:
+//            cout<<"Maj ima 31 den"<<endl;
+//            break;
+//        case 6:
+//            cout<<"Juni ima 30 dena"<<endl;
+//            break;
+//        case 7:
+//            cout<<"Juli ima 31 den"<<endl;
+//            break;
+//        case 8:
+//            cout<<"Avgust ima 30 dena"<<endl;
+//            break;
+//        case 9:
+//            cout<<"Septemvri ima 31 den"<<endl;
+//            break;
+//        case 10:
+//            cout<<"Oktomvri ima 30 dena"<<endl;
+//            break;
+//        case 11:
+//            cout<<"Noemvri ima 31 den"<<endl;
+//            break;
+//        case 12:
+//            cout<<"Dekemvri ima 30 dena"<<endl;
+//            break;
+//        default:
+//            cout<<"BROJOT NE PRETSTAVUVA MESEC"<<endl;
+//            break;
+    }
+    return 0;
+}
