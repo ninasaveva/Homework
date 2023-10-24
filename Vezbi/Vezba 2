@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string brand;
+
+    cin >> brand;
+
+    if (brand == "Renault" || brand == "Citroen" || brand == "Peugeot")
+    {
+        cout << "France" << endl;
+    }
+    else if (brand == "Mazda" || brand == "Lexus" || brand == "Toyota" || brand == "Honda")
+    {
+        cout << "Japan" << endl;
+    }
+    else if (brand == "Alfa Romeo" || brand == "Ferrari" || brand== "Lamorgini" || brand== "Fiat")
+    {
+        cout << "Italy" <<endl;
+    }
+    else if (brand == "Mercedes" || brand == "Audi" || brand == "BMW" || brand == "Opel" || brand == "Porshe")
+    {
+        cout << "Germany" << endl;
+    }
+    else if ( brand == "Jeep" || brand == "Cadilac" )
+    {
+        cout << "USA" <<endl;
+    }
+    else
+    {
+        cout << "Nema vakov brend " << brand << " vo listata." <<endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
