@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+
+//Задача 2
+//Напиши програма каде ќе се избројат вредностите помеѓу 1-100 кои се деливи со 9
+//и ќе се избројат вредностите кои се деливи со 12. Резултатот да се отпечати.
+
+int main() {
+
+    int broj;
+    int brojac= 0;
+    int brojac1= 0;
+
+
+    for(broj=1; broj<100; broj++) {
+
+        if (broj % 9 == 0) {
+            brojac++;
+
+
+        }
+        if (broj % 12 == 0) {
+            brojac1++;
+
+        }
+    }
+        cout<<"Vkupno broevi delivi so 9: "<<brojac<<endl;
+        cout<<"Vkupno broevi delivi so 12: "<<brojac1<<endl;
+    
+    return 0;
+}
+
