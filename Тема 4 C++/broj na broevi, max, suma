@@ -1,1 +1,36 @@
 
+#include <iostream>
+
+using namespace std;
+
+//Напиши програма каде што ќе внесуваш броеви се додека да внесеш 0.
+//Пронајди го бројот на внесени броеви, максималниот внесен број и
+//пресметај го збирот на внесените броеви. Резултатот да се отпечати.
+
+int main() {
+
+    int broj;
+    int brojacNaBroevi = 0;
+    int max = 0;
+    int suma=0;
+
+    while(cin>>broj) {
+     if(broj == 0){
+         break;
+     }
+        while (broj > 0) {
+            brojacNaBroevi++;   //ovoj while e pravilo za broenje na broevite.
+            broj/=10;  //go namaluvame brojot za edna cifra.
+        }
+        if (broj > max) {
+            broj = max;
+        }
+        suma += broj;
+    }
+        cout<<"Broj na broevi: "<<brojacNaBroevi<<endl;
+        cout<<"Maximum e: "<<max<<endl;
+        cout<<"Sumata na site broevi e:"<<suma<<endl;
+
+    return 0;
+}
+
